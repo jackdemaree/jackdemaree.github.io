@@ -1,0 +1,25 @@
+.headerName{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.navbar-right{
+    margin-right: 30px;
+}
+.body-container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+img{
+    height: 400px;
+    width: 400px;   
+}
+.row{
+    padding-left: 300px
+}
+.portfolio{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
