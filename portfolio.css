@@ -23,3 +23,18 @@ img{
 .about{
     text-align: center;
 }
+.aboutP{
+    display: inline-block;
+    width: 33%;
+    padding: 25px;
+    margin-bottom: 20px;
+ 
+}
+.footer{
+    text-align: center;
+    background-color: skyblue;
+}
+.contact{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
