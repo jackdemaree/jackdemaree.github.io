@@ -7,7 +7,10 @@
     <title>Portfolio</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link rel="stylesheet" href="portfolio.css">
+
+
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -17,17 +20,22 @@
     </div>
     <ul class="nav navbar-nav navbar-right">
         <li><a href= "#portfolio">Portfolio</a></li>
-        <li><a href= "#about">About</a></li>
+        <li><a href= "about.html">About</a></li>
         <li><a href= "#contact">Contact</a></li>
     </ul>
 </nav>
 <div class="body-container">
-    <div class="jumbotron text-center">
         <div>
-            <img src="./LinkedInphoto.jpg">
+            <img class="image" src="azBack.png">
         </div>
     </div>
 </div>
+<section class="wrapper styles2 ">
+    <header class="major">
+        <h1>"Its Not How Hard You Can Hit. Its About How Hard You Can Get Hit, And Keep Moving Forward"</h1>
+    </header>
+</section>
+<hr class="quoteLine">
 <div >
     <h1 class= "portfolio" id="portfolio">Portfolio</h1>
 </div>
@@ -54,17 +62,8 @@
         </div>
     </div>
 </div>
-<div class="about" >
-    <h1 id= "about">About</h1>
-</div>
-<div class="container">
-    <div class= "aboutP">Ive had a lot of jobs since college, some I have liked and some I have hated. But I think ive finally found one that I could love! One thing that I have always loved to do is puzzles and I think I have found a career that can stimulate my mind like puzzles do.
-    </div>
-    <div class= "aboutP">I am currently in school at Eleven-Fifty Academy and so far I love it. I am learning more and more about the details with coding and im loving every minute of it.
-    </div>
-    <div class= "aboutP">Im excited to find a career that can take me to new heights and something that I can enjoy doing. Im looking forward to learning everything I can to become a successful web developer.
-    </div>
-</div>
+<hr class="quoteLine">
+
 <div class="contact container"id="contact">
     <strong>Jack Demaree</strong>
     <br>
@@ -75,41 +74,48 @@
     <br>
     Email: jackdemaree@gmail.com
     <br>
-    <a href="">Resume</a>
+    <a href="https://drive.google.com/file/d/19CVP4C_BXKVlPaifzbt7vbpieERPQxX1/view?usp=sharing">Resume</a>
 </div>
-<div class="footer">
-    <p>@copyright 2018 Footer</p>
-
-</div>
-
-<!-- <footer class="page-footer font-small cyan darken-3 mt-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 py-5">
-          <div class="mb-5 flex-center">
-            <a class="fb-ic">
-              <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <a class="tw-ic">
-              <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <a class="gplus-ic">
-              <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <a class="li-ic">
-              <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <a class="ins-ic">
-              <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <a class="pin-ic">
-              <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
-            </a>
-          </div>
+<section class="container">
+    <h3 id="formHeader">Get In Touch</h3>
+    <form method="POST" action="https://formspree.io/jackdemaree23@gmail.com">
+        <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
         </div>
-      </div>
-    </div>
-</footer>    -->
+        <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" name="message" id="message" rows="3" placeholder="Your Message"></textarea>
+        </div> 
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+
+    <ul class="list-unstyled list-inline text-right fa-4x">
+        <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        </li>
+        <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-google-plus-g"></i>
+        </a>
+        </li>
+        <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-github"></i>
+        </a>
+        </li>
+    </ul>
+</footer>
+</div>
 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

@@ -6,15 +6,20 @@
     margin-right: 30px;
 }
 .body-container{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30%;
+    background: lightgray;
 }
 .image{
-    width: 100%;
+    width: 50%;
+    margin: auto;
 }
 img{
     height: 400px;
     width: 400px;   
+}
+.aboutHead{
+    text-align: center;
+    font-size: 100px;
 }
 .row{
     padding-left: 300px
@@ -60,9 +65,4 @@ img{
 .quoteLine{
     width: 1200px;
     border: .5px solid rgb(28, 171, 223);
-}
-.portfolio{
-    font-size: 50px;
-    padding-top: 20px;
-    padding-bottom: 40px;
 }
