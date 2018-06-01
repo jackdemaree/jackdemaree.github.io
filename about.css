@@ -10,16 +10,16 @@
     background: lightgray;
 }
 .image{
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
 img{
-    height: 400px;
-    width: 400px;   
+    height: 300px;
+    width: 300px;   
 }
 .aboutHead{
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
 }
 .row{
     padding-left: 300px
